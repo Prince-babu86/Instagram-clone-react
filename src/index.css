@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.highlish_storyies_profile::-webkit-scrollbar{
+    display: none;
+}
