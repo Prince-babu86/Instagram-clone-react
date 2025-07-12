@@ -6,21 +6,21 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const Profile = () => {
   return (
-    <div className="w-full  p-8 px-48  ">
+    <div className="w-full p-8 px-48  ">
       <div className="profile_top w-full flex items-start justify-start ">
         <div className="profile_logo_image h-36 w-36 rounded-full  border-3 p-1 border-[#DBDBDB] mt-16">
           <img
             className="h-full w-full rounded-full object-cover object-top"
-            src="https://i.pinimg.com/1200x/16/d6/7c/16d67ca29e951cca7176e02e8cc11c43.jpg"
+            src="https://i.pinimg.com/1200x/b7/6a/4f/b76a4ff202483ad793f267a2e4baff12.jpg"
             alt=""
           />
         </div>
         <div className="profile_top_profile_data px-4  py-3 ml-16">
           <div className="_profile-top_profile_data-top flex items-center gap-4">
             <h1 className="text-xl">itz_kallukaliya</h1>
-            <button className="bg-[#DBDBDB]  text-[13px] py-1.5 px-3 rounded-md font-semibold cursor-pointer">
+            <NavLink to={`/accounts/`} className="bg-[#DBDBDB]  text-[13px] py-1.5 px-3 rounded-md font-semibold cursor-pointer">
               Edit profile
-            </button>
+            </NavLink>
             <button className="bg-[#DBDBDB] text-[13px] py-1.5 px-3 rounded-md font-semibold cursor-pointer">
               View archieve
             </button>

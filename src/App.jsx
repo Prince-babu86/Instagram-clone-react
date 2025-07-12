@@ -8,7 +8,7 @@ const App = () => {
       <div className="">
         <Menubar />
       </div>
-      <div className="ml-[16rem] w-[80rem]">
+      <div className="ml-[16rem] w-[79rem]">
         <MainRoutes />
       </div>
     </div>
